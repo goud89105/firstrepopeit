@@ -13,6 +13,11 @@ public class App
     
     public void add(String data)
     {
+    	
+    	if(data.equals("ravindra"))
+    	{
+    		System.out.println("success");
+    	}
     	System.out.println("dummy data");
     }
 }
